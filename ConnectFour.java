@@ -10,5 +10,30 @@ public class ConnectFour {
     private char[][] board;
     private int moveCount;
 
+    public ConnectFour() {
+        
+    }
 
+    public boolean playTurn(int column, char player) {
+        return false;
+    }
+
+    public char checkWinner() {
+        return '';
+    }
+
+    public boolean isFull() {
+        return false;
+    }
+
+    public void printBoard() {
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        System.out.println();
+    }
+
+    scanner.close();
+    }
 }
