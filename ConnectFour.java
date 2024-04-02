@@ -11,7 +11,8 @@ public class ConnectFour {
     private int moveCount;
 
     public ConnectFour() {
-        
+        playTurn();
+        isFull();
     }
 
     public boolean playTurn(int column, char player) {
