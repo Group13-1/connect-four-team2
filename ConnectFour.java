@@ -36,4 +36,12 @@ public class ConnectFour {
 
     scanner.close();
     }
+
+    //empty comment
+    public void emptyFunction(){
+        System.out.println("empty");
+    }
 }
+
+//add comment 1
+//add comment 2
